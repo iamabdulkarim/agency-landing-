@@ -1,3 +1,4 @@
+import Footer from "./Footer";
 import Header from "./Header";
 import Section from "./Section";
 
@@ -7,6 +8,7 @@ function App() {
       <body class="bg-gray-100 min-h-screen flex flex-col">
         <Header />
         <Section />
+        <Footer />
       </body>
     </>
   );

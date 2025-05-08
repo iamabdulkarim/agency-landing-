@@ -5,6 +5,7 @@ import "./icon.css";
 import PricingSection from "./PricingSection";
 import ServiceSection from "./ServiceSection";
 import TestimonialSection from "./TestimonialSection";
+import TrialSection from "./TrialSection";
 export default function Section() {
   return (
     <>
@@ -14,6 +15,7 @@ export default function Section() {
       <TestimonialSection />
       <PricingSection />
       <FaqSection />
+      <TrialSection />
     </>
   );
 }
